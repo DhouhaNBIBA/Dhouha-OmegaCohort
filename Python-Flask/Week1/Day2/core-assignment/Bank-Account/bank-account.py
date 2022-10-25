@@ -1,8 +1,10 @@
 class BankAccount:
+    all_accounts = []
     # don't forget to add some default values for these parameters!
     def __init__(self, int_rate, balance): 
         self.int_rate=int_rate
         self.balance=0
+        BankAccount.all_accounts.append(self)
         # your code here! (remember, instance attributes go here)
         # don't worry about user info here; we'll involve the User class soon
     def make_deposit(self, amount):
@@ -23,7 +25,12 @@ class BankAccount:
         if self.balance > 0:
             self.balance += (self.balance * self.int_rate)
         return self
+    @classmethod
+    def print_all_accounts(cls):
+        for account in cls.all_accounts:
+            account.display_account_info()
     
+
         
 dhouha = BankAccount(4.01,300)
 imen = BankAccount(1.34,231)
