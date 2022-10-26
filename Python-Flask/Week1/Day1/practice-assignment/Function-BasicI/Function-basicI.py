@@ -1,38 +1,30 @@
-# #1
-# def number_of_food_groups():
-#     return 5
-# print(number_of_food_groups())
-# ====>5
+#1====>5
 
-# #2
-# def number_of_military_branches():
-#     return 5
-# print(number_of_days_in_a_week_silicon_or_triangle_sides() + number_of_military_branches())
-# ====>error
+#2====>error
 
-#3
-# def number_of_books_on_hold():
-#     return 5
-#     return 10
-# print(number_of_books_on_hold())
-# ====>5
+#3====>5
 
-#4
-# def number_of_fingers():
-#     return 5
-#     print(10)
-# print(number_of_fingers())
-# ====>5
+#4====>5
 
-#5
-# def number_of_great_lakes():
-#     print(5)
-# x = number_of_great_lakes()
-# print(x)
-# ====>5 
+#5====>5 
 
-#6
-def add(b,c):
-    print(b+c)
-print(add(1,2) + add(2,3))
+#6====> 3 _ 5
+
+#7====> nothing 
+
+#8====> 100 _ 10 
+
+#9====> 7 _ 14 _ 21
+
+#10====> 8
+
+#11====> 500 _ 500 _ 300 _ 500
+
+#12====> 500 _ 500 _ 300 _ 500
+
+#13====> 500 _ 500 _ 300 _ 300
+
+#14====> 1 _ 3 _ 2
+
+#15====> 1 _ 3 _ 5 _ 10
 
