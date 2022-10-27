@@ -1,8 +1,9 @@
 x = [ [5,2,3], [10,8,9] ] 
 students = [
-    {'first_name':  'Michael', 'last_name' : 'Jordan'},
-    {'first_name' : 'John', 'last_name' : 'Rosales'}
-]
+        {'first_name':  'Michael', 'last_name' : 'Jordan'},
+        {'first_name' : 'John', 'last_name' : 'Rosales'},
+        {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+        {'first_name' : 'KB', 'last_name' : 'Tonel'}]
 sports_directory = {
     'basketball' : ['Kobe', 'Jordan', 'James', 'Curry'],
     'soccer' : ['Messi', 'Ronaldo', 'Rooney']
@@ -32,6 +33,7 @@ iterateDictionary(students)
 
 #  3
 
+
 def iterateDictionary2(key_name, some_list):
     for i in range(0,len(some_list)):
         for key,val in some_list[i].items():
@@ -39,6 +41,7 @@ def iterateDictionary2(key_name, some_list):
                 print(val)
 
 iterateDictionary2('first_name',students)   
+iterateDictionary2('last_name',students) 
 
 #  4
 dojo = {
