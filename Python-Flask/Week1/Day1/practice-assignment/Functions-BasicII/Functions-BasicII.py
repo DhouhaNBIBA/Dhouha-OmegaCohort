@@ -2,7 +2,9 @@
 
 def Countdown(num):
     arry=[]
-    for i in range(num,0,-1):
+    for i in range(0,num, -1):
         arry.append(i)
     return (arry)
-    print(Countdown)
+    print(str.arry)
+
+Countdown(6)

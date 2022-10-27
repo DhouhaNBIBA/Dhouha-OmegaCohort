@@ -46,6 +46,7 @@ dojo = {
     'instructors': ['Michael', 'Amy', 'Eduardo', 'Josh', 'Graham', 'Patrick', 'Minh', 'Devon']
 }
 
+
 def Info(some_dict):
     for key,val in some_dict.items():
         print(f"{len(val)} {key.upper()}")
