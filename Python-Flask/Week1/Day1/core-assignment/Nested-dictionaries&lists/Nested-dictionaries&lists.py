@@ -28,7 +28,7 @@ def iterateDictionary(some_list):
         for key,val in some_list[i].items():
             chaine+= f" {key} - {val},"
         print(chaine)
-iterateDictionary(students)   
+iterateDictionary(students)
 
 #  3
 
