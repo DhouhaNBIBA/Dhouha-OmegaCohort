@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: green;
+    color: beige;
+    margin:50px 300px;
+}
+.m{
+    margin-left: 250px;
+    margin-right: 250px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.m2{
+    margin-left: 250px;
+    margin-right: 250px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.colr1{
+    width: 100px; 
+    height: 100px;
+}
+.colr2{
+    width: 100px; 
+    height: 100px;
+}
