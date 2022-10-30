@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    margin: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1 , h2{
+    margin: 30px;
+    text-align: center;
+}
+.b1{
+    width: 100px;
+    height: 50px;
+    color: rebeccapurple;
+    background-color: bisque;
+}
+.b2{
+    width: 100px;
+    height: 50px;
+    color:black;
+    background-color: red;
+}
