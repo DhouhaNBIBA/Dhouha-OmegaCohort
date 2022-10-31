@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/css/style.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <form action="/result" method="POST">
+            <div class="form-group row">
+                <label for="formGroupExampleInput">Your Name</label>
+                <div class="col-sm-2"></div>
+                <input type="text" class="form-control mr-sm-2"  placeholder="Example input" name="name">
+                </div>
+            <div class="col-auto my-1">
+                <label class="mr-sm-2" for="inlineFormCustomSelect">Dojo location</label>
+                <div class="col-sm-10">
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" name="location">
+                        <option selected>Dojo location</option>
+                        <option value="Tunisia">Tunisia</option>
+                        <option value="San Jose">San Jose</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-auto my-1">
+                <label class="mr-sm-2" for="inlineFormCustomSelect">Favorit language</label>
+                <div class="col-sm-10">
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" name="language">
+                        <option selected>Favorit language</option>
+                        <option value="Python">Python</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="C#">C#</option>
+                        <option value="JAVA">JAVA</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Comment (Optionel)</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="comment">
+                    </textarea>
+                </div>
+            </div>
+            <input type="submit"></input>
+        </form>
+    </div>
+</body>
+</html>
