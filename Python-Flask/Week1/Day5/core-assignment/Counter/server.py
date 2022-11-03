@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, session
+from flask import Flask, render_template, request, session, redirect
 app= Flask(__name__)
 
 app.secret_key=("Dhouha")
@@ -15,12 +15,6 @@ def index():
 def destroy(): 
     session.clear()		# clears all keys
     return redirect("/")
-
-# @app.route('/', methods=['POST'])
-# def add():
-#     request.button['add']
-#     session['count']+=2
-#     return render_template('index.html')
 
 
 
