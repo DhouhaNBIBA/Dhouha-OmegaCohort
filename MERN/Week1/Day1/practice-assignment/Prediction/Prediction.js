@@ -25,7 +25,7 @@ const person = {
 }
 const password = '12345';
 const { password: hashedPassword } = person;  
-//Predict the output// ======================> 12345// undifined
+//Predict the output// =======================> 12345// undifined
 console.log(password);
 console.log(hashedPassword);
 
