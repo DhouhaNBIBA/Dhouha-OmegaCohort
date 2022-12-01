@@ -47,7 +47,7 @@ const Info = (props) => {
     // }
     const emailMessage = (e) => {
         setEmail(e.target.value);
-        if(e.target.value.length < 3) {
+        if(e.target.value.length < 6) {
             setemailError("Email name  must be at least 5 characters!!");
         } else {
             setemailError("");
