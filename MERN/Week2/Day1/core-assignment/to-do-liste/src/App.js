@@ -1,9 +1,11 @@
 import './App.css';
-import Info from './components/info';
+import TodoList from './components/TodoList';
+
+
 function App() {
   return (
     <div className="App">
-      <Info />
+      <TodoList />
     </div>
   );
 }
