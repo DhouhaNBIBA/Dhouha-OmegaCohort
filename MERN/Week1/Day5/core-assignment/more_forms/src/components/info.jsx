@@ -48,7 +48,7 @@ const Info = (props) => {
     const emailMessage = (e) => {
         setEmail(e.target.value);
         if(e.target.value.length < 3) {
-            setemailError("Email name  must be at least 2 characters!!");
+            setemailError("Email name  must be at least 5 characters!!");
         } else {
             setemailError("");
         }
@@ -61,7 +61,7 @@ const Info = (props) => {
     const pMessage = (e) =>{
         setPassword(e.target.value)
         if( password.length <9 ) {
-            setpError("Email must be at least 8 characters!");
+            setpError("Password must be at least 8 characters!");
             }
         else {
             setpError("");
