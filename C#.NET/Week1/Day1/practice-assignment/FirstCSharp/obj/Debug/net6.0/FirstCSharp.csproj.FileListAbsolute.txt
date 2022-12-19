@@ -1,0 +1,15 @@
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\bin\Debug\net6.0\FirstCSharp.exe
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\bin\Debug\net6.0\FirstCSharp.deps.json
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\bin\Debug\net6.0\FirstCSharp.runtimeconfig.json
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\bin\Debug\net6.0\FirstCSharp.dll
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\bin\Debug\net6.0\FirstCSharp.pdb
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.csproj.AssemblyReference.cache
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.AssemblyInfoInputs.cache
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.AssemblyInfo.cs
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.csproj.CoreCompileInputs.cache
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.dll
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\obj\Debug\net6.0\refint\FirstCSharp.dll
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.pdb
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\obj\Debug\net6.0\FirstCSharp.genruntimeconfig.cache
+C:\Users\seifz\Desktop\Dhouha-OmegaCohort\C#.NET\Week1\Day1\practice-assignment\FirstCSharp\obj\Debug\net6.0\ref\FirstCSharp.dll
