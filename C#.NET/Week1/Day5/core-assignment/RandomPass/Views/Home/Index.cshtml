@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Passcode
+
+<div class="text-center">
+    <h2 class="display-4">Random Password #@Model.count</h2>
+    @* @Context.Session.GetInt32("count") *@
+    <h2>@Model.code</h2>
+    <form action="generate" method="post">
+        <input type="submit" value="Generate" class="btn btn-primary">
+    </form>
+</div>

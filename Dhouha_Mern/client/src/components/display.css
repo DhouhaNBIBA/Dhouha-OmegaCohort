@@ -1,0 +1,66 @@
+.div1{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:'10px';
+    font-size: 20px;
+    border: black;
+    background-color: white;
+}
+.div2{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:'20px';
+    font-size: 20px;
+}
+.div3{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:'10px';
+    font-size: 20px;
+}
+.div4{
+    margin: 20px;
+    justify-content: space-between;
+    font-size: 20px;
+    border: black;
+    background-color: white;
+    height: 500px;
+    width: 400px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #7B3F00;
+    color:white;
+    margin-top: 20px ;
+}
+.edit {
+    background-color: #0c1566;
+    color: #fff;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 20px 0;
+    }
+
+.delete {
+    background-color: #DB1F48;
+    color: #fff;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 20px 0;
+        }   

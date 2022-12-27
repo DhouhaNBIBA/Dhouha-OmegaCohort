@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model DojoSurverValidation
+<div class="text-center">
+    <form  action="result" method="post"> 
+        <div class="mb-3">
+            <label asp-validation-for="Name" class="form-label">Your Name:</label>
+            <input type="text" asp-for="Name" class="form-control" placeholder="Name">
+        </div>
+        <div class="mb-3">
+            <label asp-validation-for="Location" class="form-label">Your Location</label>
+            <select asp-for="Location" class="form-select">
+                <option>Tunisia</option>
+                <option>Mali</option>
+                <option>Egypte</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label asp-validation-for="FavoriteLanguage" class="form-label">"Favorite Language</label>
+            <select asp-for="FavoriteLanguage" class="form-select">
+                <option>C#</option>
+                <option>Java</option>
+                <option>Python</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label asp-validation-for="Comment" class="form-label">Your Comment</label><br>
+            <input asp-for="Comment" cols="40" rows="20">
+        </div>
+        <input type="submit" value="Submit" class="btn btn-primary">
+    </form>
+</div>
