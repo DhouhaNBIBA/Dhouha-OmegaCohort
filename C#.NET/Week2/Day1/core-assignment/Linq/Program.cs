@@ -32,6 +32,7 @@ IEnumerable<Eruption> Volcanos  = eruptions.Where(eve => eve.ElevationInMeters>2
 PrintEach(Volcanos,"Volcanos");
 //**all eruptions where the volcano's name starts with "L" and print them. Also print the number of eruptions found.**//
 IEnumerable<Eruption> All = eruptions.Where(v => v.Volcano.StartsWith("L"));
+int VolcanosCount = eruptions.Where(v => v.Volcano.StartsWith("L")).Count();
 //***the highest elevation, and print only that integer (Hint: Look up how to use LINQ to find the max!)**//
 int highest  = eruptions.Max(e => e.ElevationInMeters);
 Console.WriteLine(highest);
