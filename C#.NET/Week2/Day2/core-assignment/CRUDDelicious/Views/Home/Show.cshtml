@@ -1,0 +1,13 @@
+    @model Delicious
+    <div class="text-center">
+        <h1 class="display-4">@Model.Name</h1>
+        <a class="display-9"asp-controller="Home" asp-action="Index" >Home</a>  ||  <a class="display-9" asp-action="Dishes" style="text-decoration: none;">New Dish</a>
+    </div>
+    <hr>
+    <h3 style="text-decoration-line: underline;">@Model.Name by @Model.Chef</h3>
+    <h4> @Model.Description</h4>
+    <h4> Calories: @Model.Calories</h4>
+    <h4> Tasteness: @Model.Tastiness</h4><br><br>
+    <a href="/delete/@Model.DeliciousId"><button class="p-3 mb-2 bg-warning text-dark">Delete</button></a>
+    <a href="/dishes/@Model.DeliciousId/Edit"><button class="p-3 mb-2 bg-white text-dark">Edit</button></a>
+
