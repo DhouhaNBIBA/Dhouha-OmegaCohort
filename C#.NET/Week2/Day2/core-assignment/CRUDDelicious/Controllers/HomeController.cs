@@ -19,7 +19,7 @@ public class HomeController : Controller
     public HomeController(ILogger<HomeController> logger, MyContext context)
     {
         _logger = logger;
-        _context = context;;
+        _context = context;
     }
     //****** Show Dishes Page *******//
     [HttpGet("Dishes")]

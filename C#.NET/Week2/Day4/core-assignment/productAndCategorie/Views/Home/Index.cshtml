@@ -1,8 +1,50 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+@model Product
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        <a class="display-9" style="text-decoration: none; font-size:50px;">Products</a>  | <a class="display-9"  style=" font-size:50px;" asp-controller="Home" asp-action="Categories" >Categories</a>
 </div>
+<div class="row">
+    <div >
+        <h1 class="text-center">New Product</h1>
+        <form asp-action="addProduct" asp-controller="Home" method="post">
+            <div class="d-flex justify-content-around">
+                <div style="text-align: left;">
+                    <div class="form-group">
+                        <label asp-for="Name"> Name</label>
+                        <br>
+                        <span asp-validation-for="Name" style="color: pink;"></span>
+                        <br>
+                        <input asp-for="Name">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Description">Discription </label>
+                        <br>
+                        <span asp-validation-for="Description" style="color: pink;"></span>
+                        <br>
+                        <textarea asp-for="Description" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Price">Price</label>
+                        <span asp-validation-for="Price" style="color: pink;"></span>
+                        <br>
+                        <input asp-for="Price" class="form-control">
+                    </div>
+                    <div>
+                        <input type="submit" value="Add product" class="btn btn-primary mb-2">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div> 
+    <div>
+        @foreach (Product p in ViewBag.AllProducts)
+            {
+                <p><a href="">@p.Name</a></p>
+            }
+    </div>
+<div>
+
+    
+
